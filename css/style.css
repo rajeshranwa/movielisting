@@ -1,0 +1,268 @@
+#header{
+    height: 12%;
+    width: 100%;    
+    background-color: #ffffff;
+/*    margin: 10px;*/
+    
+}
+.search-box{
+    
+}
+.box {
+height:30%;
+width:40%;
+border-style: solid;
+border-width: 1px;
+display: inline-block;
+border-radius: 10px;
+margin:20px;
+}
+.main-content {
+    border-bottom: 1px solid;
+    width: 100%;
+    height: 80%;
+    display: inline-flex;
+    
+    
+}
+.addition-info{
+    /* display: inline-flex; */
+    width: 100%;
+    height: 20%;
+    
+}
+.image{
+/*    border: 1px solid;*/
+    height: 100%;
+    width: 30%;
+}
+.details{
+    width: 70%;
+    height: 100%;
+/*    border: 1px solid;*/
+    overflow: hidden;
+}
+.movie-title{
+    height: 35%;
+    width: 100%;
+/*    border: 1px solid;*/
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.movie-name{
+    height: 69%;
+    width: 96%;
+/*    border: 1px solid;*/
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.8em;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.country-name{
+    height: 100%;
+    width: 35%;
+/*    border: 1px solid;*/
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 4%;
+    overflow: hidden;
+}
+.additional-info{
+    height: 20%;
+    width: 100%;
+    display: inline-flex;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+
+.language{
+    height: 25%;
+    width:100% ;
+    display: inline-flex;
+}
+.director{
+    height: 25%;
+    width:100% ;
+    display: inline-flex;
+}
+.actors{
+    height: 50%;
+    width: 100%;
+    display: inline-flex;
+    text-overflow:ellipsis;
+}
+
+.language-label{
+    width: 25%;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.language-formatting{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+.language-name{
+    width: 65%;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.director-label{
+    width: 25%;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.director-formatting{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+
+}
+.director-name{
+     width: 65%;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.actors-label{
+    width: 25%;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.actors-formatting{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+.actors-name{
+    width: 65%;
+    height: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width:416px){
+    .box{
+        background-color: azure;
+/*        font-size: 12px;*/
+    }
+}
+   
+.movie-info {
+    height: 65%;
+    width: 95%;
+/*    border: 1px solid;*/
+    padding: 3% 2% 2% 3%;
+    overflow: hidden;
+    font-size: 14px;
+}
+.genres{
+/*    border: 1px solid;*/
+    display: inline-flex;
+    overflow: hidden;
+    height: 100%;
+    width: 65%;
+    
+
+}
+.budget{
+
+    display: inline-flex;
+    overflow: hidden;
+     height: 100%;
+    width: 35%;
+/*    border: 1px solid;*/
+}
+.genres-label{
+    height: 78%;
+    width: 20%;
+    padding: 5% 0% 5% 5%;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+/*    border: 1px solid;*/
+}
+.genres-formatting{
+/*    border: 1px solid;*/
+    width: 1%;
+    text-align: center;
+    height: 78%;
+    padding: 6% 0% 0% 1%;
+}
+.genres-name{
+/*    border: 1px solid;*/
+    text-align: left;
+    overflow: hidden;
+    word-break: break-all;
+    width:79%;
+    height: 78%;
+    padding: 5% 5% 5% 2%;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    font-size: 0.9em;
+}
+
+.budget-label{
+/*    border: 1px solid; */
+    padding: 8% 0% 8% 1%;
+    height: 89%;
+    width: 25%;
+}
+.budget-formatting{
+/*    border: 1px solid;*/
+    width: 1%;
+    text-align: center;
+    padding: 8% 0% 8% 0%;
+}
+.budget-value{
+/*    border: 1px solid;*/
+    padding: 8% 0% 8% 4%;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    height: 80%;
+    width: 78%;
+}
+.content{
+    display: block; 
+    margin:10px; 
+    padding:20px;
+}
+@media only screen and (max-width: 749px){
+    .content{
+    display:block; 
+    margin:10px; 
+    padding:40px
+}
+    .movie-info{
+        font-size: 12px;
+    }
+    .additional-info{
+     font-size: 10px;   
+    }
+}
+.modal-view{
+    z-index: 3;
+    position: absolute;
+    border: 2px solid;
+    width: 80%;
+    margin: 2%;
+    display: none;
+}
