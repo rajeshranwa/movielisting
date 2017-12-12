@@ -1,0 +1,39 @@
+
+            <div class='main-content'>
+               <div class="image"><img alt="Movie" src="imgs/movie-logo.png" width="100%" height="100%"> </div>
+               <div class="details">
+                  <div class="movie-title">
+                     <div class="movie-name"><%= moviemodel.movie_title %></div>
+                     <div class="country-name"><%= moviemodel.country %></div>
+                  </div>
+                  <div class="movie-info">
+                     <div class="language">
+                        <div class='language-label'>Language</div>
+                        <div class="language-formatting">:</div>
+                        <div class="language-name"><%= moviemodel.language %> </div>
+                     </div>
+                     <div class="director">
+                        <div class="director-label">Director</div>
+                        <div class="director-formatting">:</div>
+                        <div class="director-name"><%= moviemodel.director_name %></div>
+                     </div>
+                     <div class="actors">
+                        <div class="actors-label">Actors</div>
+                        <div class="actors-formatting">:</div>
+                        <div class="actors-name"><%= moviemodel.actor_1_name %></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="additional-info">
+               <div class="genres">
+                  <div class="genres-label">Genres</div>
+                  <div class="genres-formatting">:</div>
+                  <div class="genres-name"><%= moviemodel.genres %></div>
+               </div>
+               <div class="budget">
+                  <div class="budget-label">Budget</div>
+                  <div class="budget-formatting">:</div>
+                  <div class="budget-value"><%= moviemodel.budget %></div>
+               </div>
+            </div>
